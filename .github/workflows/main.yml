@@ -31,7 +31,7 @@ jobs:
         uses: docker/login-action@v3
         with:
           username: kietanh1607
-          password: ${{ secrets.GITHUBSECRETS }}
+          password: ${{ secrets.GITHUBSECRETS1 }}
 
       # 5. Build Image và Push lên Repository kietanh1607/testdocker
       - name: Build and Push Docker Image
